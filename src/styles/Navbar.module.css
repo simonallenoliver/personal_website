@@ -1,0 +1,32 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: spece-between;
+    padding: 0.75rem 1.5rem;
+    backdrop-filter: blur(8px);
+}
+
+.logo a {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.navLinks {
+    display: flex;
+    gap: 1rem;
+}
+
+.navLinks a {
+    text-decoration: none;
+}
+
+.activeLink {
+    text-decoration: underline;
+}
+
+.themeToggle {
+    cursor: pointer;
+}

@@ -1,0 +1,16 @@
+
+.main {
+    padding: 1.5rem;
+}
+
+.lightApp {
+    min-height: 100vh;
+    background: #f4f4ff;
+    color: #1a1a1a;
+}
+
+.darkApp {
+    min-height: 100vh;
+    background-color: #02030a;
+    color: #f5f5f5;
+}
