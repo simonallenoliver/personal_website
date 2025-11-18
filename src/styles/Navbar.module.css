@@ -1,32 +1,51 @@
 .navbar {
-    position: sticky;
-    top: 0;
-    z-index: 10;
-    display: flex;
-    align-items: center;
-    justify-content: spece-between;
-    padding: 0.75rem 1.5rem;
-    backdrop-filter: blur(8px);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0.75rem 1.25rem;
+  background: var(--nav-bg);
+  border-bottom: 1px solid var(--nav-border);
+  backdrop-filter: blur(12px);
 }
 
 .logo a {
-    font-weight: 700;
-    text-decoration: none;
+  font-weight: 800;
+  letter-spacing: 0.3px;
+  color: var(--text);
 }
 
 .navLinks {
-    display: flex;
-    gap: 1rem;
+  display: flex;
+  gap: 1rem;
 }
 
 .navLinks a {
-    text-decoration: none;
+  color: var(--text);
+  opacity: 0.85;
 }
 
 .activeLink {
-    text-decoration: underline;
+  opacity: 1;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
 }
 
 .themeToggle {
-    cursor: pointer;
+  border: 1px solid var(--nav-border);
+  background: transparent;
+  color: var(--text);
+  padding: 0.4rem 0.7rem;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  transition: transform 120ms ease;
+}
+.themeToggle:hover {
+  transform: translateY(-1px);
 }

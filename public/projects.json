@@ -1,0 +1,18 @@
+[
+  {
+    "title": "TriviaGod",
+    "slug": "triviagod",
+    "description": "Microservices trivia app (Spring Boot + React).",
+    "image": "/images/triviagod.png",
+    "demoUrl": "https://example.com/triviagod",
+    "repoUrl": "https://github.com/your-username/triviagod"
+  },
+  {
+    "title": "Leafly (Plant Shop)",
+    "slug": "leafly",
+    "description": "MERN e-commerce with carts and checkout.",
+    "image": "/images/leafly.png",
+    "demoUrl": "https://example.com/leafly",
+    "repoUrl": "https://github.com/your-username/leafly"
+  }
+]
